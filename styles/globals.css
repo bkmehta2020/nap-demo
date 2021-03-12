@@ -1,16 +1,60 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("http://staging.newageproducts.com/wp-content/themes/newage/css/common-style.css?ver=8798"); 
+@import url("http://staging.newageproducts.com/wp-content/themes/newage/css/font-sizes.css?var=9519");
+@import url("http://staging.newageproducts.com/wp-content/themes/newage/css/font-awesome.css?ver=4.8");  
+@import url('https://newageproducts-xiw173ersdfrnjpuobc.netdna-ssl.com/wp-content/themes/newage/css/font-int.css?var=2268');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;    
+}
+.banner  .header-box{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    text-align: center;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.category{
+    display: flex; 
+}
+.flex-box{
+    width: 33.33%;
+}
+.category-content-box {
+    margin: 80px 15px;
+    cursor: pointer;
+    text-align: center;
+    border: 4px solid #fafafa;
+    padding: 15px 0;
+}
+.category-content-box:hover {
+    background-color: #fafafa;
+}
+.category-content-box img {
+    width: 94%;
+    margin: 0 3%;
+}
+.category-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+}
+.blue-text{
+    color: #0072bc;
+}
+.product-price-sale {
+    margin: 20px 0 0;
+}
+.category-content-box .napBtn{
+    float: none;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}

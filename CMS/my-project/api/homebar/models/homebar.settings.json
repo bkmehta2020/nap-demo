@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homebars",
+  "info": {
+    "name": "Homebar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "product": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    }
+  }
+}
